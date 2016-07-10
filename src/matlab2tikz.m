@@ -129,7 +129,7 @@ function matlab2tikz(varargin)
     %   This feature is only applied if the boolean option of semanticLineWidth is set to TRUE.
     %   The list needs to be specified as a Nx2 matrix with the following
     %   scheme:
-    %   Each column needs to be a set of one string and one numerical value!
+    %   Each column needs to be a pair of one string and one numerical value!
     %   For example: {'ultra thin',0.1; 'very thin', 0.2; ...} 
     % 
     %   Example
